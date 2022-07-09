@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Bungee&family=Caveat:wght@500&family=Comfortaa:wght@500&family=Indie+Flower&family=Josefin+Sans:wght@100&family=Orbitron&family=Roboto&display=swap');
+
+
+.searchIcon{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.searchIcon:hover{
+  cursor: pointer;
+}
+
+.loginContainer{
+  /* border: 2px solid rgb(207, 198, 198); */
+  border-radius: 6px;
+  padding:20px;
+  margin-top: 30px;
+}
+
+.dealBody img{
+  max-width: 440px;
+}
+
+.dealTop,.chatList-top,.chat-head-left{
+  display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 60px;
+    margin: 5px 0px;
+}
+
+.dealContent{
+  margin: 20px;
+}
+
+.dealButton{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 150px;
+  /* border: 2px solid violet; */
+  margin: 10px;
+  clear: both;
+  display: inline-flex;
+}
+
+.profile-upper{
+  width: 100%;
+  height: 100px;
+  background-image: url('./resources/profileAbstarct.jpg');
+  background-size: cover;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  /* border-radius: 6px; */
+  margin: 0px;
+}
+.profile-lower{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 130px;
+  /* border: 2px solid red; */
+  bottom: 30px;
+}
+
+nav{
+    position: sticky !important;
+    top: 0;
+    z-index: 30;
+}
+
+.uploadDeal{
+  width: 300px;
+  margin: 10px 0;
+  border: 2px solid rgb(207, 198, 198);
+  padding: 20px;
+  border-radius: 6px;
+  height: fit-content;
+
+  z-index: 1;
+  /* height: 450px; */
+}
+
+.chatList{
+   display: none;
+    margin: 5px;
+    width: 300px;
+    border-radius: 6px;
+    border: 1px solid #d8cccc;
+    box-shadow: 0px 0px 10px #d8cccc;
+    z-index: 20;
+    background-color: white;
+  }
+  .chatlist-body{
+  max-height: 70vh;
+  overflow: scroll;
+}
+
+.chat{
+  display: none;
+  margin: 5px;
+  width: 300px;
+  border: 1px solid rgb(236, 232, 232);
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px #d8cccc;
+  background-color: white;
+  z-index: 20;
+  height: fit-content;
+}
+
+.chat-body{
+  height: 40vh;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f100; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.me{
+  max-width: 200px;
+  height: fit-content;
+  background-color: rgba(212, 197, 197, 0.826);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 6px;
+  float: right;
+  clear: both;
+  min-width: 70px;
+}
+.you{
+  max-width: 200px;
+  height: fit-content;
+  background-color: rgba(192, 183, 183, 0.589);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 6px;
+  float: left;
+  clear: both;
+  min-width: 70px;
+}
+
+.chat-send{
+  display: flex;
+  align-items: center;
+  margin:10px 0;
+}
+
+.chatContainer{
+  position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    z-index: 20;
+    align-items: flex-end;
+}
+i:hover{
+  cursor: pointer;
+}
+#shareIcon:hover{
+  cursor: pointer;
+}
+
+.dealIcon:hover{
+  cursor: pointer;
+}
+
+#editprofile{
+  border: 2px solid #dfd6d6;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+
+
+
+
+.align{
+  display: flex;
+  justify-content: center;
+  margin-left: -75px;
+
+}
+.footer{
+  background-color:#303f9f;
+  bottom:0;
+  color:#fff
+}
+
+
+#progress{
+  display: none;
+}
+
+.navbar-brand a{
+  text-decoration: none;
+}
